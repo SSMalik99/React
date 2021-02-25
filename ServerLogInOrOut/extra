@@ -1,0 +1,20 @@
+to get user info from database we also need login and logout option 
+to maintain privacy and user dash board and other infomation:-
+
+when we login into a website then we connect our info for a limited time 
+and we also need a token to use info in that website so that we get access to our dashboard
+to get the token we use jwt(Json Web token) library of javascript 
+we also need a securuty key to use this token.
+
+we can do this with the simple database(MonoDB),,,
+But we prefer mongoose cause we can define database's collection and keyword means which type 
+should be the keyword like string, number etc.
+
+we can all these things in a same javascript file but we will prefer to use in moduler approach,
+
+So first we need to install some npm pakages for this purpose
+
+npm i express body-parser jsonwebtoken bcryptjs cors mongoose
+
+
+bcryptjs is used to incript the password and other things
